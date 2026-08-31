@@ -16,7 +16,7 @@ class NestedCVEngine:
         self.param_dist=param_dist
         self.output_base=output_base
         self.dataset_name=dataset_name
-        self.model_name=model_estimator.__class__.__name__
+        self.model_name = model_estimator.__class__.__name__
         self.n_jobs=n_jobs
         self.label_encoder = LabelEncoder()
         self.scaler = MinMaxScaler()
@@ -27,6 +27,12 @@ class NestedCVEngine:
 
     def run_experiment(self,X,y,groups,rs):
         fresh_clf = clone(self.model_estimator)
+
+        if hasattr(fresh_clf, 'seed'):
+            fresh_clf.seed = rs
+        elif hasattr(fresh_clf, 'random_state'):
+            fresh_clf.random_state = rs
+
         # 1. Encode target 'y'
         y_encoded = self.label_encoder.fit_transform(y)
         class_labels = self.label_encoder.classes_
@@ -44,7 +50,7 @@ class NestedCVEngine:
         class_labels=np.unique(y_encoded)
         is_binary=len(class_labels)<=2
         
-        outer_cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=rs)
+        outer_cv = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=rs)
         inner_cv = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=rs)
         results=[]
         for fold,(train_idx,test_idx) in enumerate(outer_cv.split(X,y_encoded,groups=groups)):
@@ -54,11 +60,20 @@ class NestedCVEngine:
             groups_train = groups[train_idx]
             # Inner search focuses on Macro F1 to handle imbalance
             search=RandomizedSearchCV(
-                pipeline,adjusted_params,n_iter=300,cv=inner_cv,
+                pipeline,adjusted_params,n_iter=10,cv=inner_cv,
                 n_jobs=self.n_jobs,random_state=rs,scoring='balanced_accuracy',
                 return_train_score=True
             )
-            search.fit(X_train,y_train, groups=groups_train)
+            fit_params = {}
+            if "TabNet" in self.model_name:
+                fit_params['clf__drop_last'] = True  # Directs scikit-learn pipeline to feed drop_last to TabNet's fit method
+            elif "Skorch" in str(type(fresh_clf)) or "NeuralNet" in str(type(fresh_clf)):
+                # If you use skorch elsewhere, handling it via constructor parameter is best, 
+                # but fit_params can be used if configured inside the wrapper.
+                pass
+
+            # Execute training with targeted parameters
+            search.fit(X_train, y_train, groups=groups_train, **fit_params)
 
             y_pred_test=search.predict(X_test)
             y_pred_train=search.predict(X_train)
