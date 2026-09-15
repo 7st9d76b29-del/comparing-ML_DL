@@ -1,0 +1,12 @@
+Dataset,Model,Mean,Most_Common,Freq
+cacao_butter,tcn,48.28,34,6
+chinese_wine,tcn,86.36,84,7
+coffee,tcn,63.96,89,3
+cuttlefish,tcn,46.22,34,4
+nemipterus,tcn,53.4,6,2
+octopus,tcn,40.64,77,4
+plant_oil,tcn,90.36,84,7
+pork_adulteration,tcn,78.78,79,4
+squid,tcn,36.58,10,3
+vinegar,tcn,79.34,58,4
+wine_spoilage,tcn,67.04,73,3

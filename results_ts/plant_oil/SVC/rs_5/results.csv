@@ -1,0 +1,6 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+5,1,265.38,6.34,1.0,1.0,1.0,1.0000000001,1.0,1.0,,1.0,1.0,1.0,1.0000000001,1.0,1.0,,"{'clf__C': np.float64(330.9391330085815), 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+5,2,280.44,3.96,1.0,1.0,1.0,1.0000000001,1.0,1.0,,1.0,1.0,1.0,1.0000000001,1.0,1.0,,"{'clf__C': np.float64(31.551344358269056), 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+5,3,264.86,3.46,1.0,1.0,1.0,1.0000000001,1.0,1.0,,1.0,1.0,1.0,1.0000000001,1.0,1.0,,"{'clf__C': np.float64(330.9391330085815), 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+5,4,268.5,3.49,1.0,1.0,1.0,1.0000000001,1.0,1.0,,1.0,1.0,1.0,1.0000000001,1.0,1.0,,"{'clf__C': np.float64(57.258085681832995), 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+5,5,235.77,3.22,1.0,1.0,1.0,1.0000000001,1.0,1.0,,1.0,1.0,1.0,1.0000000001,1.0,1.0,,"{'clf__C': np.float64(115.77943500765471), 'clf__gamma': 'scale', 'clf__kernel': 'linear'}"

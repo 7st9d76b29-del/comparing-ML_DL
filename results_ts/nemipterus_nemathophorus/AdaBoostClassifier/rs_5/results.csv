@@ -1,0 +1,6 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+5,1,251.91,13.31,0.7142857142857143,0.65,0.65,0.6324555321364499,0.65,0.65,0.8,0.9615384615384616,0.9722222222222222,0.9563025210084033,0.9718253159075909,0.9444444444444444,0.9722222222222222,1.0,"{'clf__learning_rate': np.float64(0.0037788796398026524), 'clf__n_estimators': 459}"
+5,2,409.37,7.99,0.7142857142857143,0.65,0.65,0.6324555321364499,0.65,0.65,0.7,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__learning_rate': np.float64(0.7892689098336282), 'clf__n_estimators': 750}"
+5,3,494.86,11.15,0.7142857142857143,0.65,0.65,0.6324555321364499,0.65,0.65,0.8,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__learning_rate': np.float64(0.03271224766349624), 'clf__n_estimators': 908}"
+5,4,8.96,10.06,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__learning_rate': np.float64(0.641707964056402), 'clf__n_estimators': 10}"
+5,5,155.06,10.42,0.6666666666666666,0.5,0.4,1.0000000000499989e-05,0.3333333333333333,0.5,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__learning_rate': np.float64(0.19885404742908774), 'clf__n_estimators': 280}"

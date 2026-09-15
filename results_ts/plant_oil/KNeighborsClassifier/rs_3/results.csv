@@ -1,0 +1,6 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+3,1,410.43,53.63,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 73, 'clf__n_neighbors': 1, 'clf__p': 2}"
+3,2,410.43,50.77,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 73, 'clf__n_neighbors': 1, 'clf__p': 2}"
+3,3,410.43,49.82,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 73, 'clf__n_neighbors': 1, 'clf__p': 2}"
+3,4,410.43,28.48,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 73, 'clf__n_neighbors': 1, 'clf__p': 2}"
+3,5,410.43,10.77,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 73, 'clf__n_neighbors': 1, 'clf__p': 2}"

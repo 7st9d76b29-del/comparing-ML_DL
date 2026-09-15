@@ -1,0 +1,6 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+3,1,1246.85,589.4,0.96,0.9259259259259259,0.9401397011046133,0.9196413922277629,0.964696223316913,0.9259259259259259,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__max_depth': 28, 'clf__max_features': 'log2', 'clf__n_estimators': 653}"
+3,2,258.48,591.71,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__max_depth': 14, 'clf__max_features': 'log2', 'clf__n_estimators': 129}"
+3,3,96.63,588.8,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__max_depth': 38, 'clf__max_features': 'log2', 'clf__n_estimators': 48}"
+3,4,63.63,588.2,0.96,0.9166666666666666,0.9412698412698414,0.908560296517021,0.978494623655914,0.9166666666666666,0.9969724958949095,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__max_features': 'log2', 'clf__n_estimators': 31}"
+3,5,66.74,588.52,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__max_depth': None, 'clf__max_features': 'log2', 'clf__n_estimators': 31}"

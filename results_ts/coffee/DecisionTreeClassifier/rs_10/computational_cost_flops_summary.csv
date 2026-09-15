@@ -1,0 +1,6 @@
+Method,RandomState,Fold,Train_FLOPs (Fit),Inference_FLOPs (Predict),Train_BOPs,Inference_BOPs
+DecisionTreeClassifier,10,1,1554646,49500,99497344,3168000
+DecisionTreeClassifier,10,2,1554646,42900,99497344,2745600
+DecisionTreeClassifier,10,3,1518141,50400,97161024,3225600
+DecisionTreeClassifier,10,4,1518262,46787,97168768,2994368
+DecisionTreeClassifier,10,5,1518141,50400,97161024,3225600

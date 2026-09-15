@@ -1,0 +1,6 @@
+Method,RandomState,Fold,Train_FLOPs (Fit),Inference_FLOPs (Predict),Train_BOPs,Inference_BOPs
+LogisticRegression,2,1,4967640,57600,317928960,3686400
+LogisticRegression,2,2,4636464,57600,296733696,3686400
+LogisticRegression,2,3,33837600,52800,2165606400,3379200
+LogisticRegression,2,4,33120000,57584,2119680000,3685376
+LogisticRegression,2,5,33837600,52800,2165606400,3379200

@@ -1,0 +1,6 @@
+Method,RandomState,Fold,Train_FLOPs (Fit),Inference_FLOPs (Predict),Train_BOPs,Inference_BOPs
+BernoulliNB,10,1,0,0,0,0
+BernoulliNB,10,2,0,0,0,0
+BernoulliNB,10,3,0,0,0,0
+BernoulliNB,10,4,0,0,0,0
+BernoulliNB,10,5,0,0,0,0

@@ -1,0 +1,6 @@
+Method,RandomState,Fold,Train_FLOPs (Fit),Inference_FLOPs (Predict),Train_BOPs,Inference_BOPs
+LinearDiscriminantAnalysis,1,1,0,0,0,0
+LinearDiscriminantAnalysis,1,2,0,0,0,0
+LinearDiscriminantAnalysis,1,3,0,0,0,0
+LinearDiscriminantAnalysis,1,4,0,0,0,0
+LinearDiscriminantAnalysis,1,5,0,0,0,0

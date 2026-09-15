@@ -1,0 +1,12 @@
+Dataset,Model,Mean,Most_Common,Freq
+cacao_butter,AdaBoostClassifier,505.42,237,5
+chinese_wine,AdaBoostClassifier,634.46,377,2
+coffee,AdaBoostClassifier,455.68,247,3
+cuttlefish,AdaBoostClassifier,518.0,237,5
+nemipterus,AdaBoostClassifier,468.42,10,2
+octopus,AdaBoostClassifier,430.7,237,5
+plant_oil,AdaBoostClassifier,686.74,571,3
+pork_adulteration,AdaBoostClassifier,610.24,201,2
+squid,AdaBoostClassifier,518.0,237,5
+vinegar,AdaBoostClassifier,476.18,11,6
+wine_spoilage,AdaBoostClassifier,621.42,449,2

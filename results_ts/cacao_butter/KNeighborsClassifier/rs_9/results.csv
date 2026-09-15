@@ -1,0 +1,6 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+9,1,65.48,12.53,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,0.9875,0.9875,0.9874980465697765,0.9874208830065829,0.9878048780487805,0.9875,0.9984375000000001,"{'clf__leaf_size': 13, 'clf__n_neighbors': 19, 'clf__p': 1}"
+9,2,65.48,10.35,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 93, 'clf__n_neighbors': 1, 'clf__p': 1}"
+9,3,65.48,7.06,0.95,0.95,0.949874686716792,0.9486832981506526,0.9545454545454546,0.95,0.9500000000000001,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 93, 'clf__n_neighbors': 1, 'clf__p': 1}"
+9,4,65.48,7.34,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 93, 'clf__n_neighbors': 1, 'clf__p': 1}"
+9,5,65.48,7.47,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__leaf_size': 93, 'clf__n_neighbors': 1, 'clf__p': 1}"

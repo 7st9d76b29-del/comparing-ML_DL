@@ -1,0 +1,4 @@
+RandomState,Fold,Model_Size_KB,Time_Seconds,Test_Accuracy,Test_Balanced_Acc,Test_F1_Macro,Test_GMean_Macro,Test_Precision_Macro,Test_Recall_Macro,Test_AUC_Macro,Train_Accuracy,Train_Balanced_Acc,Train_F1_Macro,Train_GMean_Macro,Train_Precision_Macro,Train_Recall_Macro,Train_AUC_Macro,Best_Params
+4,1,15644.73,5326.8,1.0,1.0,1.0,1.0000000001,1.0,1.0,0.9999999999999999,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__lr': np.float64(0.04073657656436651), 'clf__max_epochs': 105}"
+4,2,15556.83,4820.82,0.9706376543728472,0.9722718076877306,0.9706119537780777,0.9718763375913191,0.9706314860720138,0.9722718076877306,0.9823281092780066,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__lr': np.float64(0.04073657656436651), 'clf__max_epochs': 105}"
+4,3,15645.25,6224.79,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,1.0,1.0,1.0,1.0000000001,1.0,1.0,1.0,"{'clf__lr': np.float64(0.04073657656436651), 'clf__max_epochs': 105}"

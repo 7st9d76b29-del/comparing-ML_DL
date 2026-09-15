@@ -1,0 +1,12 @@
+Dataset,Model,Mean,Most_Common,Freq
+cacao_butter,KNeighborsClassifier,15.94,16,10
+chinese_wine,KNeighborsClassifier,3.2,3,21
+coffee,KNeighborsClassifier,3.94,6,12
+cuttlefish,KNeighborsClassifier,3.24,2,21
+nemipterus,KNeighborsClassifier,2.86,2,28
+octopus,KNeighborsClassifier,3.14,2,19
+plant_oil,KNeighborsClassifier,1.22,1,40
+pork_adulteration,KNeighborsClassifier,2.14,1,27
+squid,KNeighborsClassifier,3.42,2,12
+vinegar,KNeighborsClassifier,9.1,1,7
+wine_spoilage,KNeighborsClassifier,1.94,2,41
